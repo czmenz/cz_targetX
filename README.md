@@ -11,11 +11,6 @@
   Lightweight. Expandable. Developer-friendly.
 </p>
 
----
-
-## 🎬 Preview
-
-https://github.com/czmenz/cz_targetX/raw/main/preview.gif
 
 ---
 
