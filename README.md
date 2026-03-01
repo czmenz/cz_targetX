@@ -15,7 +15,7 @@
 
 ## 🎬 Preview
 
-https://github.com/czmenz/cz_targetX/raw/main/preview.mp4
+https://github.com/czmenz/cz_targetX/raw/main/preview.gif
 
 ---
 
