@@ -22,7 +22,6 @@
 - 🧩 Export support for other resources
 - 🔔 Optional GitHub update checker
 - 🧠 Optimized performance logic
-- 🎨 Optional icon support per target
 
 ---
 
@@ -85,8 +84,7 @@ Config.DefaultInteractDistance = 2.0
 ```lua
 exports.cz_targetX:AddTarget("example_target", {
     coords = vec3(0.0, 0.0, 0.0),
-    label = "Example",
-    icon = "fa-solid fa-hand"
+    label = "Example"
 })
 ```
 
@@ -96,8 +94,7 @@ exports.cz_targetX:AddTarget("example_target", {
 
 ```lua
 exports.cz_targetX:UpdateTarget("example_target", {
-    label = "New label",
-    icon = "fa-solid fa-wrench"
+    label = "New label"
 })
 ```
 
@@ -117,7 +114,6 @@ exports.cz_targetX:RemoveTarget("example_target")
 |-------|------|----------|-------------|
 | coords | vector3 | ✅ | World position |
 | label | string | ❌ | Display text |
-| icon | string | ❌ | FontAwesome icon class |
 | drawDistance | number | ❌ | Visibility range |
 | interactDistance | number | ❌ | Interaction range |
 | buttonId | number | ❌ | Key control |
